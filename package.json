@@ -1,0 +1,14 @@
+{
+  "name": "minio-storage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.399.0",
+    "dotenv": "^6.2.0",
+    "minio": "^7.0.5"
+  }
+}
